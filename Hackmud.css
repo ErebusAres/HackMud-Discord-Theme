@@ -30,6 +30,6 @@
     --gbcolor1:blue;
     --version:"1.2.8";}
 
-    .scroller-3X7KbA {
-      background-color: var(--dark);
-    }
+    element.style{
+        background-color: var(--lime);
+}
