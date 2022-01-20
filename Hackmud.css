@@ -25,7 +25,7 @@
       --round1:0%; /* 0% for square | 50% for circle */
       --gbcolor:red;
       --gbcolor1:blue;
-      --version:"1.2.8";
+      --version:"2.0.1";
     
       --font-primary: whiterabbit;
       --font-display: whiterabbit;
@@ -59,13 +59,16 @@
     
     --background-mobile-primary: #36393f;
     --background-mobile-secondary: #2f3136;
-    --background-modifier-hover: rgba(79,84,92,0.16);
-    --background-modifier-active: rgba(79,84,92,0.24);
-    --background-modifier-selected: rgba(79,84,92,0.32);
-    --background-modifier-accent: hsla(0,0%,100%,0.06);
+
+    --background-modifier-hover: rgba(var(--yellowrgb),0.16);
+    --background-modifier-active: rgba(var(--yellowrgb), 0.24);
+    --background-modifier-selected: rgba(var(--yellowrgb), 0.32);
+    --background-modifier-accent: rgba(255, 255, 255, 0.06);
+
     --info-positive-text: #fff;
     --info-warning-text: #fff;
     --info-danger-text: #fff;
+    
     --info-help-background: hsla(197,calc(var(--saturation-factor, 1)*100%),47.8%,0.1);
     --info-help-foreground: hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%);
     --info-help-text: #fff;
@@ -92,7 +95,7 @@
     --guild-header-text-shadow: 0 1px 1px var(--lime);
     --channeltextarea-background: var(--dark);
     --activity-card-background: var(--light);
-    --textbox-markdown-syntax: red;
+    --textbox-markdown-syntax:var(--prefix);
     --spoiler-revealed-background: var(--dark);
     --spoiler-hidden-background: var(--light);
     --deprecated-card-bg: rgba(32,34,37,0.6);
@@ -109,4 +112,164 @@
 
 .username-h_Y3Us {
     color: var(--lime);
+    font-size: 14px;
+}
+.username-h_Y3Us::after {
+    color: var(--dots);
+    content: " :::";
+    font-size: 14px;
+}
+.username-h_Y3Us::before {
+    color: var(--prefix);
+    content:"0000 ";
+    font-size: 14px;
+}
+
+.zalgo-26OfGz .messageContent-2t3eCI {
+    font-size: 12px;
+    line-height: 1rem;
+}
+
+
+
+.scrollableContainer-15eg7h {
+    border-radius: var(--round1);
+}
+
+.mention {
+    color: var(--mentions)!important;
+    background-color: rgba(255, 128, 0, 0.2)!important;
+}
+
+.channelIcon-3I2O7O {
+    width: 12px;
+    height: 12px;
+}
+.mention.iconMentionText-1_WCtN {
+    padding-left: 1rem;
+}
+
+.rem-3kT9wc.botTag-7aX5WZ {
+    border-radius: var(--round1);
+    background-color: var(--prefix);
+}
+
+.newMessagesBar-1hF-9G, .unreadRelevant-2f-VSK, .item-2LIpTv, .jumpToPresentBar-1cEnH0 {
+    border-radius: var(--round1);
+    background-color: red;
+}
+
+.unread-36eUEm {
+    height: 75%;
+    top: 25%;
+}
+
+.compact-2Nkcau .timestamp-p1Df1m, .cozy-VmLDNB .timestamp-p1Df1m.alt-1dvXnH {
+    inline-size: auto;
+}
+
+.wordmarkWindows-2dq6rw svg path{display:none}
+.wordmarkWindows-2dq6rw svg{
+    background-color:transparent;
+    background-image:url(https://raw.githubusercontent.com/iceededpple/hackmudtheme/master/Custom/DiscordMUD2wSlash2.png);
+    background-size:contain;
+    width:90px;
+    height:16px;
+    padding-left:15px;
+    padding-right:15px;
+    margin-left:0;
+    display:block;
+}
+
+.layout-1qmrhw, .content-1gYQeQ {
+    border-radius: var(--round1);
+}
+
+.theme-dark .root-g14mjS, .role-2TIOKu {
+    background-color: var(--dark);
+    border-radius: var(--round1);
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--primary);
+}
+
+.embedFull-1HGV2S {
+    border-radius: var(--round1);
+}
+
+.embedImage-2Ynqkh img, .embedImage-2Ynqkh video, .embedThumbnail-2nTasl img, .embedThumbnail-2nTasl video, .embedVideo-2ixt5A img, .embedVideo-2ixt5A video {
+    border-radius: var(--round1)!important;
+}
+
+.markup-eYLPri code, .markup-eYLPri code.inline{
+    background-color: rgba(0,0,0,.5);
+    border-radius: var(--round1);
+    padding: 3px;
+    font-size: 14px;
+    border:1px solid rgba(31, 219, 246, 0.9);
+    box-sizing:border-box;
+}
+
+.markup-eYLPri pre{
+    background:0 0;
+    border:none;
+}
+
+/* System Message = Red */
+.content-vSHmMD {
+    color: red;
+}
+
+/* Search Bars - Give Border / Squared */
+.searchBar-3TnChZ .searchBarComponent-3N7dCG, .search-39IXmY {
+    border-radius: var(--round1);
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--primary);
+}
+
+/* Font Sizes */
+.peopleColumn-1wMU14 {
+    background-color: var(--light);
+    font-size: 12px;
+}
+.username-Qpc78p {
+    font-size: 14px;
+}
+.text-MPIeXO {
+    font-size: 12px;
+}
+
+/* Make Things Square - Instead of Rounded */
+.actions-YHvpIT, 
+.listItemContents-2n2Uy9, 
+.peopleListItem-u6dGxF:hover, 
+.topPill-3DJJNV, 
+.children-3xh0VB,
+.tabBar-ra-EuL .item-3mHhwr, 
+.tabBody-2dgbAs, 
+.nowPlayingColumn-1eCBCN,
+.container-1oAagU,
+.scroller-hE2gWq,
+.itemCard-3Etziu,
+.searchHeaderTabList-3CZMQB,
+.side-2ur1Qk .item-3XjbnG {
+    border-radius: var(--round1);
+}
+
+/* Hover over User, Channel, or Buttons - Color */
+.default-rFvAvS {
+    color: var(--yellow);
+}
+.hovered-20u3oh {
+    color: var(--prefix);
+}
+
+/* Add Trust Communication before System Messages */
+.systemMessage-1H1Z20::before {
+    color: red;
+    content:'::: TRUST COMMUNICATION :::   ';
+    display: block;
+    font-size: 14px;
+    line-height: 1rem;
 }
