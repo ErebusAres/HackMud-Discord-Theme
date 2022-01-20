@@ -3,6 +3,9 @@
     src: url(https://raw.githubusercontent.com/iceededpple/hackmudtheme/master/whiterabbit-webfont.ttf);
 }
 
+.container-1UB9sr,.container-2Thooq,.container-PNkimc,.members-1998pB{background-color:var(--light)!important}
+.attachButtonInner-1iyZ9F svg path,.messageGroupBlocked-3wrQQX,.wordmark-2iDDfm svg path{display:none}
+
 :root{--primary:rgb(0, 255, 255);
     --primary2:rgb(23,162,178);
     --primary2-2:23, 162, 178;
@@ -27,4 +30,6 @@
     --gbcolor1:blue;
     --version:"1.2.8";}
 
-.theme-dark .scroller-3X7KbA {background-color: var(--dark);font-family: whiterabbit;}
+    element.style{
+        background-color: var(--lime);
+}
