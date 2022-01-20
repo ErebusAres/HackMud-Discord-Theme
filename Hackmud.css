@@ -3,9 +3,6 @@
     src: url(https://raw.githubusercontent.com/iceededpple/hackmudtheme/master/whiterabbit-webfont.ttf);
 }
 
-.container-1UB9sr,.container-2Thooq,.container-PNkimc,.members-1998pB{background-color:var(--light)!important}
-.attachButtonInner-1iyZ9F svg path,.messageGroupBlocked-3wrQQX,.wordmark-2iDDfm svg path{display:none}
-
 :root{--primary:rgb(0, 255, 255);
     --primary2:rgb(23,162,178);
     --primary2-2:23, 162, 178;
@@ -30,6 +27,33 @@
     --gbcolor1:blue;
     --version:"1.2.8";}
 
-    element.style{
-        background-color: var(--lime);
-}
+    @font-face {
+      font-family: whiterabbit;
+      src: url(https://raw.githubusercontent.com/iceededpple/hackmudtheme/master/whiterabbit-webfont.ttf);
+  }
+  
+  :root{--primary:rgb(0, 255, 255);
+      --primary2:rgb(23,162,178);
+      --primary2-2:23, 162, 178;
+      --dark:rgb(14, 14, 14);
+      --medium:rgb(16, 18, 21);
+      --light:rgb(24, 25, 27);
+      --chancategory:rgb(31, 219, 246);
+      --prefix:rgb(255, 0, 236);
+      --fontcolor:rgb(131, 176, 242);
+      --mentions:rgb(255, 128, 0);
+      --timestamp:rgb(114, 118, 125);
+      --timestamprgb:114,118,125;
+      --dots:rgb(76, 79, 80);
+      --playing:rgb(34, 34, 34);
+      --lime:rgb(30, 255, 0);
+      --yellow:rgb(255, 216, 99);
+      --yellowrgb:255, 216, 99;
+      --primaryrgb:0,255,255;
+      --primary2rgb:23,162,178;
+      --round1:0%; /* 0% for square | 50% for circle */
+      --gbcolor:red;
+      --gbcolor1:blue;
+      --version:"1.2.8";}
+  
+  .theme-dark .scroller-3X7KbA {background-color: var(--dark);font-family: whiterabbit;}
