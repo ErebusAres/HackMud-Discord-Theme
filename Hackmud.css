@@ -28,3 +28,7 @@
     --gbcolor1:blue;
     --version:"1.2.8";
 }
+
+.platform-osx .scroller-3X7KbA, .platform-win .scroller-3X7KbA {
+    background-color: var(--dark);
+}
