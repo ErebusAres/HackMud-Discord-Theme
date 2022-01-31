@@ -16,6 +16,7 @@
     --timestamp:rgb(114, 118, 125);
     --timestamprgb:114,118,125;
     --dots:rgb(76, 79, 80);
+    --preextn: rgb(94, 92, 97);
     --playing:rgb(34, 34, 34);
     --lime:rgb(30, 255, 0);
     --yellow:rgb(255, 216, 99);
@@ -27,6 +28,11 @@
     --gbcolor1:blue;
     --version:"1.2.8";
 
+    --hackinbg: rgb(62, 4, 3);
+    --hackinbgrgb: 62, 4, 3;
+    --hackinft: rgb(241, 192, 152);
+    --hackinftrgb: 231, 194, 150;
+    
     --cursor: default;
 
     --font-primary: whiterabbit;
@@ -133,8 +139,6 @@
     line-height: 1rem;
 }
 
-
-
 .scrollableContainer-15eg7h {
     border-radius: var(--round1);
 }
@@ -175,7 +179,6 @@
 color: var(--timestamp);
 }
 
-
 .wordmarkWindows-2dq6rw svg path{display:none}
 .wordmarkWindows-2dq6rw svg{
     background-color:transparent;
@@ -209,13 +212,41 @@ color: var(--timestamp);
     border-radius: var(--round1)!important;
 }
 
-.markup-eYLPri code, .markup-eYLPri code.inline{
-    background-color: rgba(0,0,0,.5);
-    border-radius: var(--round1);
+.markup-eYLPri code, .markup-eYLPri code.inline, .codeView-12LUIl, .footer-GXWBBp {
+    background-color: rgba(var(--hackinbgrgb),.5);
     padding: 3px;
-    font-size: 14px;
-    border:1px solid rgba(31, 219, 246, 0.9);
+    font-size: 12px;
+    color: var(--hackinft);
+    border-radius: var(--round1);
+    border:1px solid rgba(var(--hackinftrgb), 0.9);
     box-sizing:border-box;
+    font: var(--font-primary)!important;
+}
+
+.textContainer-36wgKK {
+    background-color: rgba(var(--hackinbgrgb),.5);
+    padding: 3px;
+    font-size: 12px;
+    color: var(--hackinft);
+    border-radius: var(--round1);
+    border:1px solid rgba(var(--hackinftrgb), 0.9);
+    box-sizing:border-box;
+}
+
+.attachmentName-vgRpzs {
+    color: var(--preextn);
+}
+
+.hljs {
+    font: var(--font-primary)!important;
+    font-size: 12px;
+}
+
+code {
+    font: var(--font-primary)!important;
+    font-family: var(--font-primary)!important;
+    font-size: 12px;
+    line-height: 14px;
 }
 
 .markup-eYLPri pre{
@@ -242,7 +273,7 @@ color: var(--timestamp);
     font-size: 12px;
 }
 .username-Qpc78p {
-    font-size: 14px;
+    font-size: 12px;
 }
 .text-MPIeXO {
     font-size: 12px;
@@ -313,4 +344,8 @@ a img, .avatar-b5OQ1N:before, img,
 
 {
     border-radius: 0% !important;
+}
+
+a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
+    font-family: var(--font-primary)!important;
 }
