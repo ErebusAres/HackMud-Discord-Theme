@@ -360,3 +360,15 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
     color: var(--prefix)!important;
 }
 
+.queryContainer-ZunrLZ {
+    background-color: var(--dark)!important;
+}
+.resultsGroup-1BPR25 {
+    background-color: var(--light)!important;
+}
+.keybindShortcut-3zF1P9 span {
+    background-color: var(--medium)!important;
+    box-shadow: inset 0 -4px 0 var(--primary2)!important;
+}
+
+
