@@ -351,8 +351,12 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 }
 
 .scroller-2GkvCq {
-    background-color: var(--dark);   
+    background-color: var(--dark)!important;   
 }
 .reactors-1VXca7, .reactionDefault-1Sjj1f, .reactionSelected-1aMb2K {
-    background-color: var(--medium);
+    background-color: var(--medium)!important;
 }
+.discriminator-1DCM-o {
+    color: var(--prefix)!important;
+}
+
