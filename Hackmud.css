@@ -96,7 +96,7 @@
   --elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
   --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
   --logo-primary: #fff;
-  --control-brand-foreground: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
+  --control-brand-foreground: var(--primary2);
   --control-brand-foreground-new: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
   --background-mentioned: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.1);
   --background-mentioned-hover: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.08);
@@ -118,6 +118,8 @@
   --deprecated-text-input-border-hover: #040405;
   --deprecated-text-input-border-disabled: #202225;
   --deprecated-text-input-prefix: #dcddde;
+
+  --brand-experiment: var(--primary);
 }
 
 .username-h_Y3Us {
@@ -274,11 +276,11 @@ code {
   background-color: var(--light);
   font-size: 12px;
 }
-.username-Qpc78p {
-  font-size: 12px;
+.username-Qpc78p, .discriminator-WV5K5s {
+  font-size: 12px!important;
 }
 .text-MPIeXO {
-  font-size: 12px;
+  font-size: 10px;
 }
 
 /* Make Things Square - Instead of Rounded */
@@ -364,6 +366,13 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
   color: var(--prefix)!important;
 }
 
+/* Bot Tag (reactions) */
+.botTagRegular-kpctgU {
+  color: var(--primary)!important;
+  background-color: var(--prefix);
+}
+
+/* Reactions */
 .queryContainer-ZunrLZ {
   background-color: var(--dark)!important;
 }
@@ -393,13 +402,9 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
   background-clip: text;
   color: transparent;
 }
-
-
-
 .note-OhIxFa {
     color: var(--yellow);
 }
-
 .icon-12xJtb {
     color: var(--mentions);
 }
@@ -413,4 +418,70 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 }
 .nameTag-H6kSJ0 {
     color: var(--prefix);
+}
+
+/* Commands Matching */
+.theme-dark .autocomplete-3NRXG8 {
+  background-color: var(--dark);
+}
+.theme-dark .selected-3H3-RC {
+  background-color: var(--light);
+}
+
+/* Strong (Bold, Italics, or Underline */
+strong {
+  color: var(--primary2);
+}
+em {
+  color: var(--primary2);
+}
+u {
+  color: var(--primary2);
+}
+
+/* Menu Buttons */
+.lookFilled-yCfaCM.colorBrand-I6CyqQ {
+  background-color: var(--light)!important;
+  border-radius: var(--round1);
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--primary);
+}
+.theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B{
+  background-color: var(--light);
+  border-radius: var(--round1);
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--primary);
+}
+.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo {
+  background-color: var(--light);
+  border-radius: var(--round1);
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--primary);
+}
+
+.button-coQXfM {
+  background-color: var(--light)!important;
+  border-radius: var(--round1);
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--primary);
+}
+
+/* Activity Status Page */
+.notDetected-2HEmAp, .nowPlaying-zBamm2 {
+  background-color: var(--light)!important;
+  border-radius: var(--round1);
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--primary);
+}
+
+.option-1QI4c9 {
+  background-color: var(--timestamp);
+}
+.disabled-35mc5w {
+  color: var(--timestamp);
 }
