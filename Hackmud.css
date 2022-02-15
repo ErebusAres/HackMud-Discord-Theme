@@ -427,6 +427,9 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .theme-dark .selected-3H3-RC {
   background-color: var(--light);
 }
+.categoryHeader-OpJ1Ly {
+  background-color: var(--medium);
+}
 
 /* Strong (Bold, Italics, or Underline */
 strong {
