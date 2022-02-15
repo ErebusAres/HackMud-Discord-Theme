@@ -383,9 +383,24 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
   background-color: var(--medium)!important;
   box-shadow: inset 0 -4px 0 var(--primary2)!important;
 }
+
+/* Search Options */
+.theme-dark .container-2McqkF {
+  background-color: var(--dark)!important;
+}
+.option-ayUoaq {
+  background-color: var(--dark);
+}
+/* Search Options Text */
+.search-2Mwzzq .DraftEditor-root .public-DraftStyleDefault-block span {
+  background-color: var(--light);
+}
+.theme-dark .option-ayUoaq.user-1dKxvu .displayUsername-UTerwm {
+  color: var(--preextn);
+}
 /* Search Bar Gradient [Right] */
-.theme-dark .option-2KkUJO:after {
-    background: linear-gradient(90deg, rgba(0,0,0,0),var(--primary2) 80%)!important;
+.theme-dark .option-ayUoaq:after {
+  background: linear-gradient(90deg, rgba(0,0,0,0),var(--primary2) 80%)!important;
 }
 
 /* Quick Results Search Area*/
@@ -487,4 +502,24 @@ u {
 }
 .disabled-35mc5w {
   color: var(--timestamp);
+}
+
+/* Discord Icon Button (Friends Button) */
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub {
+  background-color: var(--primary);
+  color: var(--dark);
+}
+.childWrapper-1j_1ub {
+  color: var(--primary);
+  background-color: var(--light);
+}
+
+/* Better Discord Public Button */
+#bd-pub-button {
+  color: var(--fontcolor);
+  background-color: var(--light);
+}
+#bd-pub-button:hover {
+  color: var(--dark);
+  background-color: var(--primary);
 }
