@@ -175,6 +175,7 @@
   top: 25%;
 }
 
+/* Timestamp */
 .compact-2Nkcau .timestamp-p1Df1m, .cozy-VmLDNB .timestamp-p1Df1m.alt-1dvXnH {
   inline-size: auto;
 }
@@ -182,6 +183,7 @@
 .cozy-VmLDNB .timestamp-p1Df1m.alt-1dvXnH:hover {
 color: var(--timestamp);
 }
+
 
 .wordmarkWindows-2dq6rw svg path{display:none}
 .wordmarkWindows-2dq6rw svg{
@@ -522,4 +524,42 @@ u {
 #bd-pub-button:hover {
   color: var(--dark);
   background-color: var(--primary);
+}
+
+/* Gift Nitro, Footer */
+.theme-dark .footer-31IekZ {
+  background-color: var(--light);
+}
+/* Gift Nitro, Discount */
+.planOptionDiscount-2UFc37 {
+  border-radius: var(--round1);
+}
+/* Gift Nitro, Header */
+.modalHeader-gQTY3L {
+  border-radius: var(--round1)!important;
+}
+.headerIcon-1ACCh0 {
+  color: var(--primary)!important;
+}
+.close-1mLglB {
+  color: var(--dark)!important;
+}
+
+/* Right Click Friend */
+.colorDefault-CDqZdO.focused-3qFvc8, .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
+  background-color: var(--light);
+}
+
+/* Call Friend Border */
+.border-2BJQjd  {
+  border-radius: var(--round1)!important;
+}
+/* Call Friend Share Screen */
+.tile-3POX2m:hover .sourceThumbnail-ERDcZE, .sourceThumbnail-ERDcZE {
+  border-radius: var(--round1);
+}
+
+/* Hover Chat */
+.compact-2Nkcau.wrapper-30-Nkg:hover {
+  background-color: var(--brand-experiment-05a)!important;
 }
