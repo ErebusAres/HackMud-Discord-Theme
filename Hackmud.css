@@ -563,3 +563,41 @@ u {
 .compact-2Nkcau.wrapper-30-Nkg:hover {
   background-color: var(--brand-experiment-05a)!important;
 }
+
+/* Delete Message - Message BG */
+.theme-dark .message-G6O-Wv {
+  background-color: var(--light);
+  border-radius: var(--round1);
+}
+
+/* /msg user: @user message: */
+.optionKey-1tfFt_ {
+  color: var(--lime)!important;
+}
+
+/* Spoiler Text */
+.theme-dark .spoilerText-27bIiA.hidden-3B-Rum:hover {
+  background-color: var(--yellow);
+  border-radius: var(--round1);
+}
+.theme-dark .spoilerText-27bIiA.hidden-3B-Rum {
+  background-color: var(--preextn);
+  border-radius: var(--round1);
+}
+.theme-dark .spoilerText-27bIiA {
+  border-radius: var(--round1);
+}
+
+/* Spoiler Image */
+.theme-dark .spoilerWarning-8ovW0v {
+  color: var(--fontcolor);
+  border-radius: var(--round1);
+}
+.theme-dark .spoilerWarning-8ovW0v:hover {
+  border-radius: var(--round1);
+}
+
+/* Reply to NAME */
+.name-3DDHNY {
+  color: var(--lime);
+}
