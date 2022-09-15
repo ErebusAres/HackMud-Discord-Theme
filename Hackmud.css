@@ -1,3 +1,4 @@
+//META{"name":"HackmudTest","description":"Console Appearance","author":"IceeAres Crew","version":"2.0","source":"https://github.com/ErebusAres/hackmudtheme"}*//{}
 @font-face {
     font-family: whiterabbit;
     src: url(https://raw.githubusercontent.com/iceededpple/hackmudtheme/master/whiterabbit-webfont.ttf);
@@ -266,7 +267,7 @@ code {
 }
 
 /* Search Bars - Give Border / Squared */
-.searchBar-3TnChZ .searchBarComponent-3N7dCG, .search-39IXmY {
+.searchBar-3TnChZ .searchBarComponent-3N7dCG, .search-39IXmY, .collapsed-23aTv6 {
   border-radius: var(--round1);
   border-style: solid;
   border-width: 2px;
@@ -600,4 +601,34 @@ u {
 /* Reply to NAME */
 .name-3DDHNY {
   color: var(--lime);
+}
+
+/* Forum */
+.theme-dark .container-3wLKDe {
+  background-color: var(--light);
+}
+
+.emptyMainCard-2pg-47, .mainCard-3KBsBI {
+  background-color: var(--medium);
+  border-radius: var(--round1);
+}
+
+.tag-19iIl1 {
+  border-radius: var(--round1);
+}
+
+.container-2qVG6q:hover {
+  border-color: var(--primary);
+}
+
+.channelNameSpan-2CGJt7, .messageContent-1SOr75 {
+  color: var(--fontcolor);
+}
+
+.archivedDivider-2dQ9JY {
+  color: var(--primary);
+}
+
+.collapsed-23aTv6, .collapsed-23aTv6 .title-1v5ZfI {
+  color: var(--primary)!important;
 }
