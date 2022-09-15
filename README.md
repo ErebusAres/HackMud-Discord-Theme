@@ -11,3 +11,6 @@ IMPORTANT NOTICE:
 - Use BetterDiscord and/or the Theme(s) listed in this github at your own risk.
 - I/We are not responsible for any damages caused by BetterDiscord or This theme - be it directly or indirectly.
 - By Downloading, Copying, Editing, Using, Distributing, Doing ANYTHING with, etc... Anything in this github, you agree to these terms.
+
+Licensing:
+- You may use or modify this theme as you see fit, at your own discretion, and YOU are fully liable for any results that may or may not come from using or distributing the theme.
