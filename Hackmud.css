@@ -298,7 +298,8 @@ code {
 .scroller-hE2gWq,
 .itemCard-3Etziu,
 .searchHeaderTabList-3CZMQB,
-.side-2ur1Qk .item-3XjbnG {
+.side-2ur1Qk .item-3XjbnG,
+.channel-1Shao0 {
   border-radius: var(--round1);
 }
 .px-MnE_OR.botTag-7aX5WZ {
@@ -346,10 +347,9 @@ a img, .avatar-b5OQ1N:before, img,
 .userPopout-2j1gM4,
 .unread-2wipsx,
 .reaction-2A2y9y,
-.reaction-2A2y9y .emoji
-
-{
-  border-radius: 0% !important;
+.reaction-2A2y9y .emoji, 
+.avatar-1HDIsL {
+  border-radius: var(--round1)!important;
 }
 
 /* Set Many Things as Primary Font */
@@ -630,4 +630,9 @@ u {
 
 .collapsed-23aTv6, .collapsed-23aTv6 .title-1v5ZfI {
   color: var(--primary)!important;
+}
+
+/* New Prime Avatar Roles Font */
+.roleName-2ZJJYR {
+  color: var(--fontcolor);
 }
