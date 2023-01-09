@@ -603,6 +603,9 @@ u {
 }
 
 /* Forum */
+.postTitleText-2ARr84 {
+  color: var(--primary)!important;
+}
 .theme-dark .container-3wLKDe {
   background-color: var(--light);
 }
@@ -635,4 +638,13 @@ u {
 /* New Prime Avatar Roles Font */
 .roleName-2ZJJYR {
   color: var(--fontcolor);
+}
+
+/* In Call - Room Selected */
+.button-3Vyz67, .buttonColor-28DXIe {
+  background-color: var(--dark);
+  border-radius: var(--round1);
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--primary);
 }
