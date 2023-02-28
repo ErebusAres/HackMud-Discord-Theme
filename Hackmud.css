@@ -147,9 +147,15 @@
   border-radius: var(--round1);
 }
 
-.mention {
+.mention, .wrapper-1ZcZW- {
   color: var(--mentions)!important;
   background-color: rgba(255, 128, 0, 0.2)!important;
+  padding: 2px;
+}
+
+.icon-2Ph-Lv {
+  width: 10px;
+  height: 10px;
 }
 
 .channelIcon-3I2O7O {
@@ -672,4 +678,22 @@ u {
 }
 .backgroundOptionContent-2-UepH {
   background-color: var(--light);
+}
+
+/* Delete Thread */
+.header-1ffhsl, .modalContent-3nEUDf {
+  background-color: var(--medium);
+}
+
+.footer-IubaaS {
+  background-color: var(--dark);
+}
+
+.small-2xUY-3 {
+  background-color: var(--dark);
+  border-radius: var(--round1);
+}
+
+.lookFilled-1H2Jvj.colorRed-2VFhM4 {
+  border-radius: var(--round1);
 }
