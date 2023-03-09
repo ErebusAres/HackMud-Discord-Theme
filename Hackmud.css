@@ -806,3 +806,16 @@ border-radius: var(--round1);
   background-color: var(--medium);
   border-radius: var(--round1);
 }
+
+/* Forum Title */
+.theme-dark .themed-Hp1KC_ {
+  background-color: var(--medium);
+}
+
+/* Server Settings -> Boost Status */
+.tierHeaderContent-2SPBAA {
+  background-color: var(--dark);
+}
+.theme-dark .tierBody-1d3UiS {
+  background-color: var(--medium);
+}
