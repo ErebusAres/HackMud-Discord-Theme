@@ -787,3 +787,22 @@ border-radius: var(--round1);
   color: var(--primary);
   border-radius: var(--round1);
 }
+
+/* Billing / Transaction History */
+.theme-dark .paymentPane-ut5qKZ {
+  background-color: var(--dark);
+  border-radius: var(--round1);
+}
+.theme-dark .paginator-1eqD2g {
+  background-color: var(--light);
+  border-radius: var(--round1);
+}
+.theme-dark .summaryInfo-3hcuop {
+  background-color: var(--medium);
+  border-radius: var(--round1);
+}
+
+.theme-dark .codeRedemptionRedirect-2hYMSQ {
+  background-color: var(--medium);
+  border-radius: var(--round1);
+}
