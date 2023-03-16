@@ -819,3 +819,13 @@ border-radius: var(--round1);
 .theme-dark .tierBody-1d3UiS {
   background-color: var(--medium);
 }
+
+/* Channel Icons */
+.icon-2W8DHg {
+  color: var(--primary2);
+}
+
+/* Category v Color */
+.mainContent-uDGa6R {
+  color: var(--primary2);
+}
