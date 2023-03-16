@@ -829,3 +829,11 @@ border-radius: var(--round1);
 .mainContent-uDGa6R {
   color: var(--primary2);
 }
+
+/* In Call Buttons (Camera, Share, Activity) */
+.lookFilled-1H2Jvj.colorBrand-2M3O3N {
+  background-color: var(--yellow)!important;
+}
+.lookFilled-1H2Jvj.colorBrand-2M3O3N:hover {
+  background-color: var(--primary)!important;
+}
