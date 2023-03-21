@@ -1,4 +1,4 @@
-# hackmudtheme
+# HackMud Style Discord Theme
 You will need BetterDiscord to use the theme.
 
 Download hackmud.theme.css and put it in your %appdata%\betterdiscord\themes folder
