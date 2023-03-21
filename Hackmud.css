@@ -26,7 +26,7 @@
   --round1:0%; /* 0% for square | 50% for circle */
   --gbcolor:red;
   --gbcolor1:blue;
-  --version:"1.2.8";
+  --version:"1.3.0";
 
   --hackinbg: rgb(62, 4, 3);
   --hackinbgrgb: 62, 4, 3;
@@ -40,13 +40,14 @@
   --font-primary: whiterabbit;
   --font-display: whiterabbit;
   --font-code: whiterabbit;
+
 }
 
 .theme-dark {
   --header-primary: var(--primary);
   --header-secondary:var(--primary2);
   --text-normal: var(--fontcolor);
-  --text-muted: var(--timestamp);
+  --text-muted: var(--dots);
   --text-link: var(--lime);
 
   --text-link-low-saturation: hsl(197,calc(var(--saturation-factor, 1)*100%),52.9%);
@@ -165,6 +166,8 @@
   --brand-experiment-85a: hsl(var(--brand-500-hsl)/0.85);
   --brand-experiment-90a: hsl(var(--brand-500-hsl)/0.9);
   --brand-experiment-95a: hsl(var(--brand-500-hsl)/0.95);
+
+  --input-background: var(--light);
 }
 
 .username-h_Y3Us {
@@ -781,6 +784,16 @@ border-radius: var(--round1);
   border-radius: var(--round1);
 }
 
+.content-Lj791F {
+  background-color: var(--dark);
+}
+.selectedProgressBar-11z5d9 {
+  background-color: var(--primary);
+}
+.colorBrand-3Xb6JG {
+  color: var(--primary);
+}
+
 /* Focused / Hover over dropdown menus */
 .colorDefault-2_rLdz.focused-3LIdPu {
   background-color: rgba(var(--yellowrgb),.5);
@@ -836,4 +849,9 @@ border-radius: var(--round1);
 }
 .lookFilled-1H2Jvj.colorBrand-2M3O3N:hover {
   background-color: var(--primary)!important;
+}
+
+/* Giphy Scroll */
+.scrollbarGhostHairline-2LpzZ9 {
+  background-color: var(--light);
 }
