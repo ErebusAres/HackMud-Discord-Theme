@@ -26,7 +26,7 @@
   --round1:0%; /* 0% for square | 50% for circle */
   --gbcolor:red;
   --gbcolor1:blue;
-  --version:"1.3.0";
+  --version:"1.2.8";
 
   --hackinbg: rgb(62, 4, 3);
   --hackinbgrgb: 62, 4, 3;
@@ -854,4 +854,20 @@ border-radius: var(--round1);
 /* Giphy Scroll */
 .scrollbarGhostHairline-2LpzZ9 {
   background-color: var(--light);
+}
+
+/* Channels and Roles */
+.container-2IKOsH {
+  background-color: var(--medium)!important;
+}
+.pageBody-29jwEZ, .scroller-1fIBSS {
+  background-color: var(--light);
+}
+.header-2e2w0L, .pageBody-23bo4p {
+  background-color: var(--light);  
+}
+
+/*  -- Buttons -- */
+.optionButtonWrapper-2lbogO {
+  border-radius: var(--round1);
 }
