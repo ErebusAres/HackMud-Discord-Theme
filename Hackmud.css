@@ -837,6 +837,9 @@ border-radius: var(--round1);
 .icon-2W8DHg {
   color: var(--primary2);
 }
+.modeSelected-3DmyhH .icon-2W8DHg, .modeSelected-3DmyhH:hover .icon-2W8DHg, .modeUnread-3Cxepe .icon-2W8DHg, .modeUnread-3Cxepe:hover .icon-2W8DHg {
+  color: var(--primary);
+}
 
 /* Category v Color */
 .mainContent-uDGa6R {
@@ -870,4 +873,18 @@ border-radius: var(--round1);
 /*  -- Buttons -- */
 .optionButtonWrapper-2lbogO {
   border-radius: var(--round1);
+}
+
+/* Server Guide Page */
+.homeContainer-1T8N7y {
+  background-color: var(--light);
+}
+
+/* Browse Channels */
+.text-xs-medium-311pdh {
+  color: var(--dots);
+}
+
+.theme-dark .checkbox-1LuCGM {
+  border-color: var(--primary2)!important;
 }
