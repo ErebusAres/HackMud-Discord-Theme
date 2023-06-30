@@ -910,3 +910,19 @@ border-radius: var(--round1);
 .active-OdlCV-:hover {
   color: var(--primary)!important;
 }
+
+/* Forum Font Color Fix */
+.defaultColor-1GKx81 {
+  color: var(--primary)!important;
+}
+
+.messageContent-3szEnQ {
+  color: var(--fontcolor);
+}
+
+/* "NEW" Badge */
+.newBadge-2NdCeG {
+  color: black;
+  background-color: var(--primary)!important;
+  border-radius: var(--round1);
+}
