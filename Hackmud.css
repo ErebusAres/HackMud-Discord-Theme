@@ -183,7 +183,7 @@
 }
 .username-h_Y3Us::before {
   color: var(--prefix);
-  content:"0000 ";
+  content:"";
   font-size: 14px;
 }
 
