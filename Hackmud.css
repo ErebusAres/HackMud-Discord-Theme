@@ -169,6 +169,7 @@
   --brand-experiment-95a: hsl(var(--brand-500-hsl)/0.95);
 
   --input-background: var(--light);
+  --home-background: var(--dark);
 }
 
 .username-h_Y3Us {
@@ -227,7 +228,7 @@
 
 .unread-36eUEm {
   height: 75%;
-  top: -5%;
+  top: 25%;
 }
 
 /* Timestamp */
@@ -925,4 +926,9 @@ border-radius: var(--round1);
   color: black;
   background-color: var(--primary)!important;
   border-radius: var(--round1);
+}
+
+/* Members Roles Font */
+.text-xs-medium-311pdh {
+    color: var(--primary);
 }
